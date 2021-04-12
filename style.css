@@ -1,0 +1,25 @@
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2 rem;
+  background-color: salmon;
+  width: 100%;
+  height: 200px;
+}
+body {
+  background-color: teal;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
